@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://yourusername.github.io/algotrading-strategy/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://yourusername.github.io/algotrading-strategy/introduction/book-structure/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://yourusername.github.io/algotrading-strategy/introduction/target-audience/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://yourusername.github.io/algotrading-strategy/introduction/why-algo-trading/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://yourusername.github.io/algotrading-strategy/optimization/multi-objective/nsga3/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://yourusername.github.io/algotrading-strategy/strategies/ml-trading/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://yourusername.github.io/algotrading-strategy/strategies/trend-trading/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://yourusername.github.io/algotrading-strategy/strategy-development/preparation/market-trend-decision/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+</urlset>

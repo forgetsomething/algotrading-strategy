@@ -1,12 +1,16 @@
 # Machine Learning Investment Portfolio Strategy
 
-*From Strategy building to portfolio optimization, AI machine learning to fully automated algotrading: how to apply neural network forecast, genetic algorithm multiple objectives optimization to create your multi strategies risk adjusted portfolio*
+**From Strategy building to portfolio optimization, AI machine learning to fully automated algotrading: how to apply neural network forecast, genetic algorithm multiple objectives optimization to create your multi strategies risk adjusted portfolio**
 
-By Your Name
+*By Your Name*
 
 ---
 
+## About This Book
+
 Think Machine Learning Investment Portfolio Strategy is an introduction to algorithmic trading using advanced computational methods, machine learning, and multi-objective optimization.
+
+This comprehensive guide takes you through the complete journey of building sophisticated algorithmic trading systems using modern machine learning techniques, genetic algorithms, and advanced portfolio optimization methods.
 
 You can access the complete source code and examples from our [GitHub repository](https://github.com/forgetsomething/algotrading-strategy).
 
