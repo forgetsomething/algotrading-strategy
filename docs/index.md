@@ -21,7 +21,7 @@ Other Books by the Author are available from [Your Publishing Site](https://your
 [Download the notebooks as a Zip file](https://github.com/forgetsomething/algotrading-strategy/archive/main.zip)
 
 Or use these links to run the notebooks on Colab:
-
+                                                                                                                                                        
 • [Chapter 1: Trend Trading](https://colab.research.google.com/github/forgetsomething/algotrading-strategy/blob/main/notebooks/trend-trading.ipynb)
 • [Chapter 2: Mean Reversion](https://colab.research.google.com/github/forgetsomething/algotrading-strategy/blob/main/notebooks/mean-reversion.ipynb)
 • [Chapter 3: Statistical Arbitrage](https://colab.research.google.com/github/forgetsomething/algotrading-strategy/blob/main/notebooks/statistical-arbitrage.ipynb)
