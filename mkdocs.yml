@@ -1,12 +1,15 @@
 site_name: Machine Learning Investment Portfolio Strategy
 site_description: From Strategy building to portfolio optimization, AI machine learning to fully automated algotrading
 site_author: Your Name
-site_url: https://yourusername.github.io/algotrading-strategy/
+site_url: https://forgetsomething.github.io/algotrading-strategy/
 
 # Repository
-repo_name: yourusername/algotrading-strategy
-repo_url: https://github.com/yourusername/algotrading-strategy
+repo_name: forgetsomething/algotrading-strategy
+repo_url: https://github.com/forgetsomething/algotrading-strategy
 edit_uri: edit/main/docs/
+
+# Documentation directory
+docs_dir: docs
 
 # Configuration
 theme:
