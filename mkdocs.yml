@@ -13,39 +13,35 @@ theme:
   name: material
   language: en
   
-  # Color scheme
+  # Color scheme to match reference site
   palette:
     - scheme: default
-      primary: blue grey
-      accent: indigo
+      primary: white
+      accent: blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: blue grey
-      accent: indigo
+      primary: black
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   
   # Font
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif
+    code: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace
   
-  # Features
+  # Features - simplified to match reference site
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.path
     - navigation.top
     - search.highlight
-    - search.share
     - search.suggest
     - toc.follow
     - content.code.copy
-    - content.code.annotate
 
 # Extensions
 markdown_extensions:
