@@ -1,0 +1,65 @@
+/* Custom styles for the algorithmic trading documentation */
+
+:root {
+  --md-primary-fg-color: #37474f;
+  --md-accent-fg-color: #1976d2;
+}
+
+/* Code block styling */
+.highlight pre {
+  border-left: 4px solid var(--md-accent-fg-color);
+  padding-left: 1rem;
+}
+
+/* Navigation styling */
+.md-nav__item--active > .md-nav__link {
+  font-weight: 600;
+}
+
+/* Custom admonition for trading alerts */
+.md-typeset .admonition.trading-alert {
+  border-color: #ff9800;
+}
+
+.md-typeset .admonition.trading-alert > .admonition-title {
+  background-color: rgba(255, 152, 0, 0.1);
+  border-color: #ff9800;
+}
+
+/* Table styling for financial data */
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+}
+
+/* Code syntax highlighting improvements */
+.codehilite .k, .highlight .k { color: #1976d2; font-weight: bold; }
+.codehilite .s, .highlight .s { color: #388e3c; }
+.codehilite .c, .highlight .c { color: #757575; font-style: italic; }
+
+/* Responsive improvements */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    background-color: var(--md-primary-fg-color);
+  }
+}
+
+/* Custom button styling */
+.md-button--primary {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+/* Enhanced code block headers */
+.codehilite[data-lang]::before {
+  content: attr(data-lang);
+  display: block;
+  background: var(--md-primary-fg-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: -1rem -1rem 1rem -1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

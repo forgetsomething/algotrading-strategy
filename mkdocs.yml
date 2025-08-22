@@ -1,0 +1,178 @@
+site_name: Machine Learning Investment Portfolio Strategy
+site_description: From Strategy building to portfolio optimization, AI machine learning to fully automated algotrading
+site_author: Your Name
+site_url: https://yourusername.github.io/algotrading-strategy/
+
+# Repository
+repo_name: yourusername/algotrading-strategy
+repo_url: https://github.com/yourusername/algotrading-strategy
+edit_uri: edit/main/docs/
+
+# Configuration
+theme:
+  name: material
+  language: en
+  
+  # Color scheme
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  # Font
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  # Features
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+# Extra JavaScript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Navigation
+nav:
+  - Home: index.md
+  - Introduction:
+    - Why Algorithmic Trading Matters: introduction/why-algo-trading.md
+    - Book Structure Overview: introduction/book-structure.md
+    - Who This Book is For: introduction/target-audience.md
+  
+  - Strategy Development:
+    - Preparation:
+      - Market Trend Decision: strategy-development/preparation/market-trend-decision.md
+      - Regime Detection: strategy-development/preparation/regime-detection.md
+      - Backtesting Components: strategy-development/preparation/backtesting-components.md
+    
+    - Investment Instruments:
+      - Single Stock Selection: strategy-development/instruments/single-stock.md
+      - Multiple Stocks: strategy-development/instruments/multiple-stocks.md
+      - ETF Index: strategy-development/instruments/etf-index.md
+      - Commodities: strategy-development/instruments/commodities.md
+      - Currency Pairs: strategy-development/instruments/currency-pairs.md
+    
+    - Features & Data:
+      - Feature Selection: strategy-development/features/feature-selection.md
+      - Backtesting Timeframes: strategy-development/features/backtesting-timeframes.md
+      - Trading Frequency: strategy-development/features/trading-frequency.md
+  
+  - Strategy Types:
+    - Trend Trading: strategies/trend-trading.md
+    - Mean Reversion: strategies/mean-reversion.md
+    - Statistical Arbitrage: strategies/statistical-arbitrage.md
+    - Only-Buy Portfolio: strategies/only-buy-portfolio.md
+    - Time Series Forecasting: strategies/time-series-forecasting.md
+    - Reinforcement Learning: strategies/reinforcement-learning.md
+    - Machine Learning Trading: strategies/ml-trading.md
+  
+  - Optimization:
+    - Single Objective:
+      - GA, PSO, ES: optimization/single-objective/ga-pso-es.md
+    - Multi-Objective:
+      - NSGA-III: optimization/multi-objective/nsga3.md
+      - AGE-MOEA2: optimization/multi-objective/age-moea2.md
+      - DNSGA2: optimization/multi-objective/dnsga2.md
+      - SMS-EMOA: optimization/multi-objective/sms-emoa.md
+    - Portfolio Optimization:
+      - Multi-objective Approach: optimization/portfolio/multi-objective.md
+      - Deep Learning Portfolio: optimization/portfolio/deep-learning.md
+      - Tools (Pymoo, Skfolio): optimization/portfolio/tools.md
+    - Optimization Operators:
+      - Sampling: optimization/operators/sampling.md
+      - Selection: optimization/operators/selection.md
+      - Mutation: optimization/operators/mutation.md
+      - Crossover: optimization/operators/crossover.md
+  
+  - Risk & Cash Management:
+    - Cash Management:
+      - Kelly Criteria: management/cash/kelly-criteria.md
+      - 2% Rule: management/cash/two-percent-rule.md
+    - Risk Management:
+      - Model-based VaR: management/risk/model-based-var.md
+      - Rolling VaR: management/risk/rolling-var.md
+      - Pain Index: management/risk/pain-index.md
+  
+  - Market Phases:
+    - Pre-Market: market-phases/pre-market.md
+    - In-Market: market-phases/in-market.md
+    - Post-Market: market-phases/post-market.md
+  
+  - Portfolio Risk:
+    - Downside Risk Quantification: portfolio-risk/downside-risk.md
+
+# Search
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+# Copyright
+copyright: Copyright &copy; 2025 Your Name
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/python
+      link: https://python.org
+  generator: false
