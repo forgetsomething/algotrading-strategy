@@ -16,7 +16,7 @@ theme:
   name: material
   language: en
   
-  # Color scheme to match reference site
+  # Minimal palette to let custom CSS control styling
   palette:
     - scheme: default
       primary: white
@@ -31,20 +31,10 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   
-  # Font
-  font:
-    text: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif
-    code: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace
-  
-  # Features - simplified to match reference site
+  # Minimal features for clean ThinkBayes2 layout
   features:
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
     - search.highlight
     - search.suggest
-    - toc.follow
-    - content.code.copy
 
 # Extensions
 markdown_extensions:
@@ -85,77 +75,50 @@ extra_javascript:
 
 # Extra CSS
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/thinkbayes2.css
 
 # Navigation
 nav:
-  - Home: index.md
-  - Introduction:
+  - Algorithmic Trading Strategy: index.md
+  - Front Matter:
     - Why Algorithmic Trading Matters: introduction/why-algo-trading.md
     - Book Structure Overview: introduction/book-structure.md
     - Who This Book is For: introduction/target-audience.md
-  
-  - Strategy Development:
-    - Preparation:
-      - Market Trend Decision: strategy-development/preparation/market-trend-decision.md
-      - Regime Detection: strategy-development/preparation/regime-detection.md
-      - Backtesting Components: strategy-development/preparation/backtesting-components.md
-    
-    - Investment Instruments:
-      - Single Stock Selection: strategy-development/instruments/single-stock.md
-      - Multiple Stocks: strategy-development/instruments/multiple-stocks.md
-      - ETF Index: strategy-development/instruments/etf-index.md
-      - Commodities: strategy-development/instruments/commodities.md
-      - Currency Pairs: strategy-development/instruments/currency-pairs.md
-    
-    - Features & Data:
-      - Feature Selection: strategy-development/features/feature-selection.md
-      - Backtesting Timeframes: strategy-development/features/backtesting-timeframes.md
-      - Trading Frequency: strategy-development/features/trading-frequency.md
-  
-  - Strategy Types:
-    - Trend Trading: strategies/trend-trading.md
-    - Mean Reversion: strategies/mean-reversion.md
-    - Statistical Arbitrage: strategies/statistical-arbitrage.md
-    - Only-Buy Portfolio: strategies/only-buy-portfolio.md
-    - Time Series Forecasting: strategies/time-series-forecasting.md
-    - Reinforcement Learning: strategies/reinforcement-learning.md
-    - Machine Learning Trading: strategies/ml-trading.md
-  
+  - Strategies:
+    - "1. Trend Trading": strategies/trend-trading.md
+    - "2. Mean Reversion": strategies/mean-reversion.md
+    - "3. Statistical Arbitrage": strategies/statistical-arbitrage.md
+    - "4. Only-Buy Portfolio": strategies/only-buy-portfolio.md
+    - "5. Time Series Forecasting": strategies/time-series-forecasting.md
+    - "6. Reinforcement Learning": strategies/reinforcement-learning.md
+    - "7. Machine Learning Trading": strategies/ml-trading.md
+    - "8. Market Trend Decision": strategy-development/preparation/market-trend-decision.md
+    - "9. Regime Detection": strategy-development/preparation/regime-detection.md
+    - "10. Backtesting Components": strategy-development/preparation/backtesting-components.md
+    - "11. Single Stock Selection": strategy-development/instruments/single-stock.md
+    - "12. Multiple Stocks": strategy-development/instruments/multiple-stocks.md
+    - "13. ETF Index": strategy-development/instruments/etf-index.md
+    - "14. Commodities": strategy-development/instruments/commodities.md
+    - "15. Currency Pairs": strategy-development/instruments/currency-pairs.md
+    - "16. Feature Selection": strategy-development/features/feature-selection.md
+    - "17. Backtesting Timeframes": strategy-development/features/backtesting-timeframes.md
+    - "18. Trading Frequency": strategy-development/features/trading-frequency.md
   - Optimization:
-    - Single Objective:
-      - GA, PSO, ES: optimization/single-objective/ga-pso-es.md
-    - Multi-Objective:
-      - NSGA-III: optimization/multi-objective/nsga3.md
-      - AGE-MOEA2: optimization/multi-objective/age-moea2.md
-      - DNSGA2: optimization/multi-objective/dnsga2.md
-      - SMS-EMOA: optimization/multi-objective/sms-emoa.md
-    - Portfolio Optimization:
-      - Multi-objective Approach: optimization/portfolio/multi-objective.md
-      - Deep Learning Portfolio: optimization/portfolio/deep-learning.md
-      - Tools (Pymoo, Skfolio): optimization/portfolio/tools.md
-    - Optimization Operators:
-      - Sampling: optimization/operators/sampling.md
-      - Selection: optimization/operators/selection.md
-      - Mutation: optimization/operators/mutation.md
-      - Crossover: optimization/operators/crossover.md
-  
-  - Risk & Cash Management:
-    - Cash Management:
-      - Kelly Criteria: management/cash/kelly-criteria.md
-      - 2% Rule: management/cash/two-percent-rule.md
-    - Risk Management:
-      - Model-based VaR: management/risk/model-based-var.md
-      - Rolling VaR: management/risk/rolling-var.md
-      - Pain Index: management/risk/pain-index.md
-  
-  - Market Phases:
-    - Pre-Market: market-phases/pre-market.md
-    - In-Market: market-phases/in-market.md
-    - Post-Market: market-phases/post-market.md
-  
-  - Portfolio Risk:
-    - Downside Risk Quantification: portfolio-risk/downside-risk.md
+    - "19. GA, PSO, ES": optimization/single-objective/ga-pso-es.md
+    - "20. NSGA-III": optimization/multi-objective/nsga3.md
+    - "21. AGE-MOEA2": optimization/multi-objective/age-moea2.md
+    - "22. DNSGA2": optimization/multi-objective/dnsga2.md
+    - "23. SMS-EMOA": optimization/multi-objective/sms-emoa.md
+    - "24. Multi-objective Portfolio": optimization/portfolio/multi-objective.md
+    - "25. Deep Learning Portfolio": optimization/portfolio/deep-learning.md
+    - "26. Optimization Tools": optimization/portfolio/tools.md
+  - Risk Management:
+    - "27. Kelly Criteria": management/cash/kelly-criteria.md
+    - "28. 2% Rule": management/cash/two-percent-rule.md
+    - "29. Model-based VaR": management/risk/model-based-var.md
+    - "30. Rolling VaR": management/risk/rolling-var.md
+    - "31. Pain Index": management/risk/pain-index.md
+    - "32. Downside Risk": portfolio-risk/downside-risk.md
 
 # Search
 plugins:
