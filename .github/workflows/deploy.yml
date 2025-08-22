@@ -1,4 +1,5 @@
 name: Deploy MkDocs to GitHub Pages
+# Force rebuild - December 2024
 
 on:
   push:
